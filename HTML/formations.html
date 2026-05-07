@@ -3,42 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Département Informatique - EFREI</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Formations - Efrei</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-
     <header>
-        <h1>Département Informatique EFREI</h1>
-        <nav>
-            <ul>
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="formations.html">Formations</a></li>
-                <li><a href="equipes.html">Équipes</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <div class="logo">
+                [IMAGE : Logo EFREI Blanc]
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../HTML/accueil.html">Accueil</a></li>
+                    <li><a href="../HTML/formations.html" class="active">Formations</a></li>
+                    <li><a href="../HTML/equipes.html">Corps Enseignant</a></li>
+                    <li><a href="../HTML/vie-etudiante.html">Vie Étudiante</a></li>
+                    <li><a href="../HTML/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="hero">
-            <h2>Bienvenue au cœur de l'innovation numérique</h2>
-            <p>Découvrez nos programmes, nos laboratoires et la vie étudiante au sein du département.</p>
+        <section class="page-header">
+            <h1>Nos Formations</h1>
+            <p>Du post-bac au cycle ingénieur, des parcours d'excellence.</p>
         </section>
 
-        <article>
-            <h3>Nos Spécialisations</h3>
-            <p>De la Cybersécurité à la Data Science, l'EFREI forme les ingénieurs de demain...</p>
-        </article>
+        <section class="programs">
+            <div class="container">
+                <h2>Bachelors</h2>
+                <div class="program-grid">
+                    <div class="program-card">
+                        <h3>Cybersécurité & Réseaux</h3>
+                        <p>Devenez un expert de la protection des systèmes d'information.</p>
+                        <ul class="custom-list">
+                            <li>DÉVELOPPEMENT WEB</li>
+                            <li>SÉCURITÉ RÉSEAU</li>
+                            <li>ADMINISTRATION SYSTÈMES</li>
+                        </ul>
+                    </div>
+                    <div class="program-card">
+                        <h3>Développeur Web & IA</h3>
+                        <p>Maîtrisez les technologies du futur et l'intelligence artificielle.</p>
+                        <ul class="custom-list">
+                            <li>MACHINE LEARNING</li>
+                            <li>FULL-STACK DEV</li>
+                            <li>DATA SCIENCE</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 style="margin-top: 50px;">Cycle Ingénieur</h2>
+                <div class="program-grid">
+                    <div class="program-card highlight">
+                        <h3>Majeure Information Technology</h3>
+                        <p>Conception de logiciels complexes et systèmes d'information.</p>
+                        [IMAGE : Illustration technique abstraite style code et data]
+                    </div>
+                    <div class="program-card highlight">
+                        <h3>Majeure Data Science</h3>
+                        <p>Exploitation et analyse des données de masse.</p>
+                        [IMAGE : Illustration serveurs et intelligence artificielle]
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <nav>
-            <ul>
-                <li><a href="propos.html">À propos de ce projet</a></li>
-            </ul>
-        </nav>
-        <p>&copy; 2026 - Projet Web EFREI</p>
+        <div class="footer-container">
+            <p>&copy; 2026 Efrei Paris</p>
+            <div class="trust-labels">
+                [IMAGE : Logos CGE, Cti, EESPIG]
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
