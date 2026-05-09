@@ -13,7 +13,7 @@
     <header>
         <div class="header-content">
             <div class="logo">
-                [IMAGE : Logo EFREI Blanc - Format Horizontal]
+                <img src="../images/logo_efrei.png" alt="Logo Efrei" class="logo">
             </div>
             <nav>
                 <ul>
@@ -36,9 +36,12 @@
                     <a href="formations.html" class="btn-primary">Découvrir nos formations</a>
                 </div>
             </div>
-            <div class="hero-image">
-                [IMAGE : Photo d'un étudiant Efrei en labo, ambiance nocturne avec reflets de néons bleus et cyans sur son visage]
+            <div class="hero-image" id="slider">
+                <img src="../images/carroussel1.jpg" alt="Campus Villejuif 1" class="slide active">
+                <img src="../images/carroussel2.jpg" alt="Efrei avec etudiants 2" class="slide">
+                <img src="../images/carroussel3.jpg" alt="Etudiants bis 3" class="slide">
             </div>
+
         </section>
 
         <section class="key-figures">
@@ -52,26 +55,57 @@
                     <span class="label">Diplômés par an</span>
                 </div>
                 <div class="stat-card">
-                    <span class="number">150+</span>
+                    <span class="number">2000+</span>
                     <span class="label">Entreprises Partenaires</span>
                 </div>
             </div>
         </section>
 
         <section class="news">
+        <div class="container">
             <h2>Actualités et Événements</h2>
-            <ul class="custom-list">
-                <li>Journées Portes Ouvertes - Campus de Villejuif</li>
-                <li>Conférence sur la Cybersécurité et l'IA</li>
-                <li>Atelier de programmation pour les lycéens</li>
-            </ul>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="../images/jpo.jpg" alt="Journée Porte Ouverte">
+                    </div>
+                    <div class="news-content">
+                        <h3> Participer à une journée porte ouverte</h3>
+                        <p>Venez découvrir nos formations et visiter le campus de Villejuif.</p>
+                        <a href="https://www.efrei.fr/evenement/journees-portes-ouvertes/" class="btn-card">Voir l'événement</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="../images/conference.jpg" alt="Conférence Cybersécurité et IA">
+                    </div>
+                    <div class="news-content">
+                        <h3>Conférence Cyber & IA</h3>
+                        <p>Une immersion dans les enjeux de demain avec nos experts partenaires.</p>
+                        <a href="https://www.efrei.fr/evenement/programher/" class="btn-card">Voir l'événement</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="../images/atelier_tech.jpg" alt="Atelier technologiques">
+                    </div>
+                    <div class="news-content">
+                        <h3>Atelier technologique</h3>
+                        <p>Initiez-vous au code le temps d'un après-midi avec nos étudiants.</p>
+                        <a href="https://www.efrei.fr/evenement/journee-immersion-paris/" class="btn-card">Voir l'événement</a>
+                    </div>
+                </article>
+            </div>
+        </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-container">
             <div class="footer-info">
-                <p>&copy; 2026 Efrei Paris - Département Informatique</p>
+                <p>2026 Efrei Paris - Département Informatique</p>
             </div>
             <div class="trust-labels">
                 [IMAGE : Encart blanc contenant les logos CGE, Cti, EESPIG]
@@ -79,4 +113,5 @@
         </div>
     </footer>
 </body>
+<script src="../JavaScript/script.js"></script>
 </html>
