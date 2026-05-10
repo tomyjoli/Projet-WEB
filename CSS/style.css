@@ -696,3 +696,140 @@ footer {
         flex-direction: column;
     }
 }
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin: 40px 0;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 4px solid #81ECEC;
+    flex-shrink: 0;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.class-tag {
+    color: #81ECEC;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #0A316C;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #81ECEC;
+    transform: translateY(-3px);
+}
+
+.github-card {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.github-header i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.github-btn {
+    display: inline-block;
+    background: #0A316C;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.github-btn:hover {
+    background: #333;
+}
+
+.code-analysis {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-bar-container {
+    display: flex;
+    height: 12px;
+    background-color: #eee;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.progress-segment { height: 100%; }
+.progress-segment.html { background-color: #e34c26; }
+.progress-segment.css { background-color: #264de4; }  
+.progress-segment.js { background-color: #f7df1e; }   
+
+.legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.dot.html { background-color: #e34c26; }
+.dot.css { background-color: #264de4; }
+.dot.js { background-color: #f7df1e; }
+
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
