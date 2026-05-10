@@ -3,25 +3,4 @@ Projet HTML, CSS &amp; JS
 ## 📂 Arborescence du Projet
 
 ```text
-Efrei-Project/
-├── accueil.html (Accueil)
-│   ├── Hero Header (Bannière)
-│   ├── Histoire de l'Efrei (Biographie)
-│   ├── Partenariats & Professionnalisation
-│   ├── Actualités (News)
-│   └── Contacts & Admissions (avec Plan Métro)
-├── formations.html
-│   ├── Cycles Ingénieurs
-│   └── Bachelors & Masters
-├── equipes.html
-│   └── Liste du Corps Enseignant (Cartes)
-├── vie_etudiante.html
-│   ├── Chiffres Clés
-│   ├── Campus & Associations
-│   └── Paroles d'étudiants (Chat interactif)
-├── a_propos.html
-│   ├── Profil Auteur
-│   ├── Liens GitHub & Sociaux
-│   └── Statistiques du Code
-└── contact.html
-    └── Formulaire & Coordonnées
+<img width="1863" height="560" alt="maquette_projet_web" src="https://github.com/user-attachments/assets/fc3265c4-8c06-4db3-af10-0bbcd1e5e37d" />
