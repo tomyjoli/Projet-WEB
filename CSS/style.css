@@ -427,6 +427,15 @@ footer {
     padding: 80px 5%;
 }
 
+.page-header3 {
+    background-image: url('../images/vie_associative.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 80px 5%;
+}
+
 .pillars-container {
     display: flex;
     justify-content: center;
@@ -536,4 +545,147 @@ footer {
     font-size: 14px;
     color: #666;
     font-style: italic;
+}
+
+.testimonials-section {
+    padding: 60px 0;
+    background-color: #fcfcfc;
+}
+
+.chat-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.chat-bubble-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.chat-bubble-wrapper.right {
+    justify-content: flex-end;
+}
+
+.chat-avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #81ECEC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #0A316C;
+    flex-shrink: 0; 
+}
+
+.chat-bubble {
+    padding: 15px 20px;
+    border-radius: 20px;
+    max-width: 65%;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.left .chat-bubble {
+    background-color: #f1f1f1;
+    color: #333;
+    border-bottom-left-radius: 4px;
+}
+
+.right .chat-bubble {
+    background-color: #0A316C;
+    color: white;
+    border-bottom-right-radius: 4px;
+    text-align: right;
+}
+
+.chat-name {
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.chat-text {
+    line-height: 1.4;
+}
+
+.student-life-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section-intro {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.assoc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.assoc-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.assoc-card:hover {
+    transform: translateY(-10px);
+}
+
+.assoc-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.assoc-content h4 {
+    color: #0A316C;
+    margin-bottom: 10px;
+}
+
+.feature-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 60px 0;
+}
+
+.feature-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-image, .feature-text {
+    flex: 1;
+}
+
+.feature-text h3 {
+    color: #0A316C;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #81ECEC, transparent);
+    margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .feature-row, .feature-row.reverse {
+        flex-direction: column;
+    }
 }
