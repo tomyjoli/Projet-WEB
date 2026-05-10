@@ -446,40 +446,57 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
+.footer-info {
+    flex: 1.5;
+    min-width: 200px;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
     flex-wrap: wrap; 
 }
 
-.footer-info p {
-    font-size: 14px;
-    opacity: 0.9;
+.footer-column {
+    flex: 1;
+    min-width: 150px;
 }
 
-.footer-links {
+.footer-column h4 {
+    color: #81ECEC;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column ul {
     list-style: none;
-    display: flex;
-    gap: 30px;
+    padding: 0;
 }
 
-.footer-links a {
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
-    transition: color 0.3s ease;
+    transition: 0.3s;
+    opacity: 0.8;
 }
 
-.footer-links a:hover {
+.footer-column ul li a:hover {
+    opacity: 1;
     color: #81ECEC;
+    padding-left: 5px;
 }
 
-
-.trust-labels {
+.trust-labels{
     background: #FFFFFF;
     padding: 10px 20px;
     border-radius: 4px;
@@ -488,10 +505,9 @@ footer {
     text-align: center;
 }
 
-.trust-labels {
-    background: #FFFFFF;
-    padding: 10px 20px;
-    border-radius: 4px;
+.trust-labels img {
+    height: 40px;
+    margin: 0 10px;
 }
 
 @keyframes slideUp {
