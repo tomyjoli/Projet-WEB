@@ -4,7 +4,7 @@ Projet HTML, CSS &amp; JS
 
 ```text
 Efrei-Project/
-├── index.html (Accueil)
+├── accueil.html (Accueil)
 │   ├── Hero Header (Bannière)
 │   ├── Histoire de l'Efrei (Biographie)
 │   ├── Partenariats & Professionnalisation
